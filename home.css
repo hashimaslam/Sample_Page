@@ -1,0 +1,199 @@
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px 7px 200px 7px 200px 7px 200px;
+  grid-template-columns: 250px 200px 200px 200px;
+  -ms-grid-rows: 300px 7px 300px 7px 300px;
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 7px;
+  background-color: #322863de;
+  padding-left: 16.5%;
+  padding-right: 20%;
+}
+.grid-container > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.grid-container > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.grid-container > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.grid-container > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+.grid-container > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.grid-container > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.grid-container > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+.grid-container > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+.grid-container > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+.grid-container > *:nth-child(10) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+.grid-container > *:nth-child(11) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+.grid-container > *:nth-child(12) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 7;
+}
+
+.grid-container > div {
+  background-color: #7d69e496;
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+
+div {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+div:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.item1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  position: relative;
+}
+
+.item8 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+.item9 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+.item10 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+}
+.card {
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Roboto", sans-serif;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+/* img {
+    border-radius: 5px 5px 0 0;
+  } */
+
+#img1 {
+  height: 45%;
+  width: 100%;
+}
+.title {
+  width: 250px;
+  padding-left: 5%;
+  margin: 0 0 0 0px;
+  padding-bottom: 10px;
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 2px;
+  color: white;
+}
+.Ntitle {
+  width: 200px;
+  padding-left: 5%;
+  margin: 0 0 0 0px;
+  padding-bottom: 10px;
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 2px;
+  color: white;
+}
+.para {
+  width: 400px;
+  margin: 0 0 0 0px;
+  padding-left: 5%;
+  text-align: left;
+
+  font-size: 10px;
+  font-weight: 2px;
+  color: white;
+}
+.Npara {
+  width: 200px;
+  margin: 0 0 0 0px;
+  padding-left: 5%;
+  text-align: left;
+
+  font-size: 10px;
+  font-weight: 2px;
+  color: white;
+}
+.Mtitle {
+  width: 150px;
+  margin-top: 70px;
+  margin-left: 10px;
+  color: white;
+}
+
+#icon {
+  font-size: 10px;
+  color: #a2a4a6;
+  margin-right: 73%;
+  text-align: left;
+}
+#Nicon {
+  font-size: 10px;
+  color: #a2a4a6;
+  margin-right: 55%;
+  text-align: left;
+}
+#Nicon2 {
+  margin-right: 4px;
+}
+#icon2 {
+  margin-right: 4px;
+}
+#ficon {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+#Nficon {
+  margin-left: 5px;
+  margin-right: 4px;
+}
+#mficon {
+  font-size: 10px;
+  color: #a2a4a6;
+  margin-right: 62%;
+  text-align: left;
+}
+#Nmficon {
+  font-size: 10px;
+  color: #a2a4a6;
+  margin-right: 30%;
+  text-align: left;
+}
